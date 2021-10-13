@@ -219,6 +219,7 @@ input {
   background-color: #DCDCDC;
   padding: 8px 8px;
   margin: 4px;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -229,8 +230,9 @@ h1 {
 }
 
 ol {
-  background-color: A1A1A1;
-  padding: 50px;
+  background-color: #A1A1A1;
+  padding: 55px;
+  border-radius: 2em;
 }
 
 p {
@@ -239,5 +241,18 @@ p {
   font-size: 35px;
 }
 
+#input-submit {
+  font-size: 25px;
+  background-color: #555555;
+  border-radius: 2em;
+}
+#input-age-verification {
+  background-color: #626262;
+  border-radius: 2em;
+}
+
+#input-email {
+  background-color: #6E6E6E;
+  border-radius: 2em;
 
 /* ===== STATE STYLES ======= */
