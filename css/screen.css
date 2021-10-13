@@ -196,15 +196,11 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  font-family: 'Libre Baskerville', serif;
 }
 
 label {
   display: block;
-}
-
-/* ===== LAYOUT STYLES ====== */
-html {
-  font-family: Times New Roman, Arial, Comic Sans;
 }
 
 body {
@@ -232,7 +228,7 @@ h1 {
 ol {
   background-color: #A1A1A1;
   padding: 55px;
-  border-radius: 2em;
+  border-radius: 1em;
 }
 
 p {
@@ -242,17 +238,36 @@ p {
 }
 
 #input-submit {
-  font-size: 25px;
+  font-size: 40px;
   background-color: #555555;
   border-radius: 2em;
+  margin: 10px;
+  padding: 20px;
 }
 #input-age-verification {
   background-color: #626262;
-  border-radius: 2em;
+  border-radius: 3em;
+  margin: 10px;
+  padding: 20px;
+}
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
 }
 
 #input-email {
   background-color: #6E6E6E;
-  border-radius: 2em;
+  border-radius: 3em;
+  margin: 10px;
+  padding: 20px;
+}
+input[type="email"] {
+  width: 65%;
+  height: 30%;
+}
+
+
+/* ===== LAYOUT STYLES ====== */
+
 
 /* ===== STATE STYLES ======= */
