@@ -203,6 +203,41 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+html {
+  font-family: Times New Roman, Arial, Comic Sans;
+}
+
+body {
+  background-color: #808080;
+}
+
+#content {
+  text-align: center;
+}
+
+input {
+  background-color: #DCDCDC;
+  padding: 8px 8px;
+  margin: 4px;
+}
+
+h1 {
+  background-color: #D4D4D4;
+  font-size: 44px;
+  padding: 40px;
+  border-radius: 2em;
+}
+
+ol {
+  background-color: A1A1A1;
+  padding: 50px;
+}
+
+p {
+  background-color: A1A1A1;
+  padding: 30px;
+  font-size: 35px;
+}
 
 
 /* ===== STATE STYLES ======= */
